@@ -1,0 +1,338 @@
+[
+  {
+    "frage": "Warum werden Labels in Formularen verwendet?",
+    "antworten": [
+      "Sie beschriften Eingabefelder und machen deren Zweck verständlich",
+      "Sie speichern Formulardaten dauerhaft auf dem Server",
+      "Sie erzeugen automatisch neue Eingabefelder im Formular",
+      "Sie legen die Größe und Position eines Feldes fest",
+      "Sie wandeln Benutzereingaben in HTML-Code um"
+    ],
+    "korrekteAntwort": 0,
+    "erklaerung": "Eine gute Benutzeroberfläche sollte eindeutig vermitteln, welche Informationen erwartet werden. Beschriftungen verbessern außerdem die Bedienbarkeit und die Zugänglichkeit von Formularen."
+  },
+  {
+    "frage": "Welches HTML-Element dient zur Beschriftung eines Eingabefeldes?",
+    "antworten": [
+      "<caption>",
+      "<legend>",
+      "<label>",
+      "<description>",
+      "<header>"
+    ],
+    "korrekteAntwort": 2,
+    "erklaerung": "Beschriftungselemente gehören zu den wichtigsten Bestandteilen benutzerfreundlicher Formulare und werden häufig gemeinsam mit Eingabefeldern eingesetzt."
+  },
+  {
+    "frage": "Welche Aufgabe hat das Attribut for eines Labels?",
+    "antworten": [
+      "Es verknüpft die Beschriftung mit einem bestimmten Eingabefeld",
+      "Es bestimmt die Schriftart der Beschriftung",
+      "Es definiert die Breite des Formulars",
+      "Es aktiviert die automatische Datenübertragung",
+      "Es legt den Eingabetyp des Feldes fest"
+    ],
+    "korrekteAntwort": 0,
+    "erklaerung": "Die Verbindung erfolgt über eine eindeutige Kennung. Dadurch erkennen Browser, welches Eingabeelement mit welcher Beschriftung zusammengehört."
+  },
+  {
+    "frage": "Mit welchem Attribut wird ein Eingabefeld mit einem Label verbunden?",
+    "antworten": [
+      "class",
+      "style",
+      "value",
+      "id",
+      "placeholder"
+    ],
+    "korrekteAntwort": 3,
+    "erklaerung": "Die Kennung eines Eingabeelements muss eindeutig sein. Auf diese Kennung kann anschließend von anderen Elementen Bezug genommen werden."
+  },
+  {
+    "frage": "Was passiert, wenn ein korrekt verknüpftes Label angeklickt wird?",
+    "antworten": [
+      "Das zugehörige Eingabefeld wird aktiviert oder erhält den Fokus",
+      "Das Formular wird sofort an den Server gesendet",
+      "Der Inhalt des Feldes wird automatisch gelöscht",
+      "Die Webseite wird neu geladen",
+      "Das Feld wird in ein Passwortfeld umgewandelt"
+    ],
+    "korrekteAntwort": 0,
+    "erklaerung": "Dieses Verhalten erleichtert die Bedienung insbesondere auf mobilen Geräten und verbessert die Zugänglichkeit für verschiedene Nutzergruppen."
+  },
+  {
+    "frage": "Welcher Input-Typ wird für Passwörter verwendet?",
+    "antworten": [
+      "type=\"secret\"",
+      "type=\"private\"",
+      "type=\"hiddentext\"",
+      "type=\"password\"",
+      "type=\"secure\""
+    ],
+    "korrekteAntwort": 3,
+    "erklaerung": "Bei dieser Eingabeart werden Zeichen normalerweise nicht direkt angezeigt, sondern durch Platzhalter dargestellt. Dadurch können andere Personen die Eingabe schwerer mitlesen."
+  },
+  {
+    "frage": "Welcher Input-Typ ist für E-Mail-Adressen vorgesehen?",
+    "antworten": [
+      "type=\"mail\"",
+      "type=\"email\"",
+      "type=\"address\"",
+      "type=\"contact\"",
+      "type=\"message\""
+    ],
+    "korrekteAntwort": 1,
+    "erklaerung": "Browser können bei dieser Eingabeart zusätzliche Prüfungen durchführen und auf mobilen Geräten passende Tastaturen bereitstellen."
+  },
+  {
+    "frage": "Welcher Input-Typ wird für numerische Eingaben verwendet?",
+    "antworten": [
+      "type=\"digit\"",
+      "type=\"integer\"",
+      "type=\"numeric\"",
+      "type=\"count\"",
+      "type=\"number\""
+    ],
+    "korrekteAntwort": 4,
+    "erklaerung": "Für numerische Felder können Browser spezielle Bedienelemente wie Pfeile zum Erhöhen oder Verringern von Werten anzeigen."
+  },
+  {
+    "frage": "Wodurch zeichnet sich eine Checkbox aus?",
+    "antworten": [
+      "Es können mehrere Optionen gleichzeitig ausgewählt werden",
+      "Es darf immer nur genau eine Option aktiv sein",
+      "Sie akzeptiert ausschließlich Zahlenwerte",
+      "Sie dient ausschließlich zur Texteingabe",
+      "Sie kann nur innerhalb eines Passwortfeldes verwendet werden"
+    ],
+    "korrekteAntwort": 0,
+    "erklaerung": "Diese Eingabeart eignet sich besonders für unabhängige Auswahlmöglichkeiten, bei denen mehrere Entscheidungen gleichzeitig getroffen werden können."
+  },
+  {
+    "frage": "Wodurch zeichnet sich ein Radiobutton aus?",
+    "antworten": [
+      "Er ermöglicht die Eingabe mehrzeiliger Texte",
+      "Er speichert Daten automatisch im Browser",
+      "Er erlaubt ausschließlich numerische Werte",
+      "Er dient zur Auswahl genau einer Möglichkeit",
+      "Er ersetzt die Verwendung von Labels"
+    ],
+    "korrekteAntwort": 3,
+    "erklaerung": "Diese Eingabeart wird typischerweise verwendet, wenn aus mehreren Alternativen nur eine einzige Entscheidung getroffen werden soll."
+  },
+  {
+    "frage": "Welche Code-Kombination verknüpft ein Label korrekt mit einem Eingabefeld?",
+    "antworten": [
+      "<label for=\"name\">Name:</label><input id=\"name\" type=\"text\" name=\"name\">",
+      "<label id=\"name\">Name:</label><input for=\"name\" type=\"text\">",
+      "<label type=\"name\">Name:</label><input name=\"text\">",
+      "<label class=\"name\">Name:</label><input class=\"text\">",
+      "<label value=\"name\">Name:</label><input value=\"text\">"
+    ],
+    "korrekteAntwort": 0,
+    "erklaerung": "Die Verbindung erfolgt über eine übereinstimmende Kennung. Dadurch entsteht eine logische Beziehung zwischen Beschriftung und Eingabeelement."
+  },
+{
+"frage": "Welchen Hauptzweck erfüllt ein HTML-Formular?",
+"antworten": [
+"Bilder automatisch komprimieren und lokal speichern",
+"Das Layout einer Webseite in Spalten aufteilen",
+"Dateien auf dem Computer des Besuchers verschlüsseln",
+"Die Ladegeschwindigkeit von Webseiten erhöhen",
+"Daten vom Benutzer erfassen und an einen Server übermitteln"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Formulare dienen der Interaktion zwischen Benutzer und Webseite. Sie ermöglichen die Eingabe von Informationen, die anschließend verarbeitet werden können. Typische Anwendungsfälle sind Anmeldungen, Registrierungen, Suchanfragen oder Kontaktanfragen."
+},
+{
+"frage": "Welches HTML-Element definiert ein Formular?",
+"antworten": [
+"<section></section>",
+"<form></form>",
+"<input></input>",
+"<fieldset></fieldset>",
+"<container></container>"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Ein Formular bildet den Rahmen für alle Eingabeelemente. Innerhalb dieses Bereichs können Textfelder, Schaltflächen, Auswahlfelder und weitere Eingabekomponenten platziert werden."
+},
+{
+"frage": "Welches Beispiel stellt eine typische Verwendung eines Formulars dar?",
+"antworten": [
+"Eine Benutzeranmeldung mit Benutzername und Passwort",
+"Die Darstellung eines Hintergrundbildes im Browser",
+"Die Formatierung eines Textabschnitts mit CSS",
+"Die Definition einer Navigationsleiste im Header",
+"Die Erstellung einer Tabellenstruktur für Daten"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Zu den häufigsten Einsatzgebieten gehören Anmeldungen, Registrierungen, Suchfunktionen und Kontaktseiten. Dabei werden Informationen von Besuchern aufgenommen und weiterverarbeitet."
+},
+{
+"frage": "Welches HTML-Element erzeugt ein Eingabefeld?",
+"antworten": [
+"<label>",
+"<textarea>",
+"<fieldset>",
+"<input>",
+"<article>"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Das Eingabeelement besitzt verschiedene Varianten. Über Attribute kann festgelegt werden, ob beispielsweise Text, Passwörter, E-Mail-Adressen oder andere Datentypen eingegeben werden sollen."
+},
+{
+"frage": "Welche Bedeutung hat das Attribut type=\"text\"?",
+"antworten": [
+"Es erstellt eine Schaltfläche zum Absenden",
+"Es definiert ein Auswahlmenü mit Optionen",
+"Es erzeugt ein Textfeld für freie Texteingaben",
+"Es aktiviert die automatische Datenübertragung",
+"Es legt die Hintergrundfarbe des Formulars fest"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Der Wert eines type-Attributs bestimmt die Art der Eingabe. Browser können dadurch passende Eingabemöglichkeiten und teilweise auch Prüfmechanismen bereitstellen."
+},
+{
+"frage": "Welche Aufgabe erfüllt das Attribut name innerhalb eines Eingabefeldes?",
+"antworten": [
+"Es bestimmt die Schriftgröße der Eingabe",
+"Es erzeugt automatisch eine Beschriftung",
+"Es kennzeichnet das Feld für die Verarbeitung der Daten",
+"Es legt die Breite des Formulars fest",
+"Es definiert die Position des Feldes auf der Seite"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Bei der Übertragung von Formulardaten werden die Eingaben als Schlüssel-Wert-Paare behandelt. Die Bezeichnung dient dabei als Identifikator für die jeweilige Information."
+},
+{
+"frage": "Welcher HTML-Code erzeugt ein Textfeld für einen Benutzernamen?",
+"antworten": [
+"<input type=\"text\" name=\"username\">",
+"<input text=\"username\" type=\"field\">",
+"<form type=\"text\" name=\"username\">",
+"<textarea type=\"username\"></textarea>",
+"<field name=\"username\" type=\"text\">"
+],
+"korrekteAntwort": 0,
+"erklaerung": "Ein Eingabefeld benötigt ein passendes Element und die relevanten Attribute. Besonders wichtig ist die Angabe des Eingabetyps sowie einer eindeutigen Kennzeichnung."
+},
+{
+"frage": "Was geschieht grundsätzlich mit den Daten eines Formulars?",
+"antworten": [
+"Sie werden ausschließlich im Browser dauerhaft gespeichert",
+"Sie werden automatisch in HTML-Code umgewandelt",
+"Sie ersetzen die CSS-Eigenschaften der Webseite",
+"Sie werden direkt in die Navigationsleiste eingefügt",
+"Sie können zur weiteren Verarbeitung an einen Server übertragen werden"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Nach der Eingabe können Informationen beispielsweise gespeichert, überprüft, durchsucht oder für die Anmeldung eines Benutzers verwendet werden."
+},
+{
+"frage": "Welche Kombination entspricht der im Unterricht gezeigten Grundstruktur eines Formulars mit Eingabefeld?",
+"antworten": [
+"<input><form type=\"text\"></form>",
+"<form type=\"username\"></form><input>",
+"<fieldset><form></fieldset></form>",
+"<form><input type=\"text\" name=\"username\"></form>",
+"<input name=\"username\"></input>"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Eingabeelemente werden innerhalb des Formularbereichs platziert. Dadurch gehören sie logisch zum Formular und können gemeinsam verarbeitet werden."
+},
+{
+"frage": "Warum ist das Attribut name für Serveranwendungen wichtig?",
+"antworten": [
+"Weil dadurch die Webseite schneller geladen wird",
+"Weil darüber einzelne Eingabewerte eindeutig erkannt werden können",
+"Weil damit die Position des Feldes bestimmt wird",
+"Weil dadurch CSS-Regeln automatisch erzeugt werden",
+"Weil Browser ohne dieses Attribut keine Eingaben erlauben"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Bei mehreren Eingabefeldern muss eine Anwendung unterscheiden können, welche Information zu welchem Feld gehört. Die Zuordnung erfolgt über die festgelegte Kennzeichnung."
+},
+{
+"frage": "Wozu dient das HTML-Element <select> in einem Formular?",
+"antworten": [
+"Es erstellt ein mehrzeiliges Texteingabefeld für freie Eingaben",
+"Es definiert einen Button zum Absenden eines Formulars",
+"Es sendet Formulardaten direkt an einen Server ohne Formular",
+"Es erzeugt eine Gruppe von auswählbaren Optionen in einer Dropdown-Liste",
+"Es verschlüsselt die Eingaben eines Formulars automatisch"
+],
+"korrekteAntwort": 3,
+"erklaerung": "Ein Auswahlfeld ermöglicht dem Benutzer, aus einer vorgegebenen Liste genau eine Option auszuwählen. Diese Struktur wird häufig verwendet, wenn die Auswahl eingeschränkt und standardisiert sein soll."
+},
+{
+"frage": "Welche Rolle hat das Element <option> innerhalb eines <select>-Elements?",
+"antworten": [
+"Es definiert die visuelle Gestaltung des Formulars über CSS",
+"Es stellt einen auswählbaren Eintrag innerhalb eines Auswahlfeldes dar",
+"Es verbindet das Formular automatisch mit einem Server",
+"Es erstellt ein Passwortfeld innerhalb eines Formulars",
+"Es speichert die eingegebenen Daten dauerhaft im Browser"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Ein Auswahlfeld besteht aus mehreren einzelnen Einträgen. Jeder dieser Einträge repräsentiert eine mögliche Auswahl für den Benutzer."
+},
+{
+"frage": "Wozu wird das <textarea>-Element verwendet?",
+"antworten": [
+"Zur Erstellung eines Buttons für das Absenden eines Formulars",
+"Zur Eingabe von mehrzeiligem Text wie Nachrichten oder Kommentaren",
+"Zur Auswahl genau einer Option aus mehreren Möglichkeiten",
+"Zur automatischen Validierung von E-Mail-Adressen",
+"Zur Darstellung von Bildern innerhalb eines Formulars"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Mehrzeilige Eingabefelder werden genutzt, wenn Benutzer längere Texte eingeben sollen, etwa für Nachrichten, Feedback oder Supportanfragen."
+},
+{
+"frage": "Welche typische Nutzung passt zu einem <textarea>-Feld?",
+"antworten": [
+"Ein Passwortfeld für sichere Logins",
+"Ein Dropdown-Menü für Länder",
+"Ein Button zum Absenden eines Formulars",
+"Eine Auswahl von Radio-Buttons",
+"Eine Nachricht oder ein Kommentar vom Benutzer"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Für längere freie Texteingaben wird ein spezielles Feld verwendet, das mehrere Zeilen unterstützt und nicht auf kurze Eingaben beschränkt ist."
+},
+{
+"frage": "Welche Funktion hat ein Button mit type=\"submit\"?",
+"antworten": [
+"Er löscht alle Eingaben im Formular automatisch",
+"Er öffnet ein neues Browserfenster",
+"Er erstellt eine neue HTML-Seite im Dokument",
+"Er ändert die Farbe des Formulars",
+"Er sendet die Formulardaten an das definierte Ziel"
+],
+"korrekteAntwort": 4,
+"erklaerung": "Ein Absende-Element löst die Übertragung der im Formular eingegebenen Daten aus. Dies ist der zentrale Schritt zur Weiterverarbeitung auf einem Server."
+},
+{
+"frage": "Welche Bedeutung hat das Attribut action im <form>-Element?",
+"antworten": [
+"Es bestimmt die Farbe des Formulars im Browser",
+"Es legt fest, welche Schriftart verwendet wird",
+"Es definiert die Zieladresse für die Formulardaten",
+"Es verhindert die Eingabe von falschen Daten",
+"Es erzeugt automatisch ein Eingabefeld"
+],
+"korrekteAntwort": 2,
+"erklaerung": "Ein Formular benötigt ein Ziel, an das die eingegebenen Daten gesendet werden. Dieses Ziel wird durch eine definierte Adresse angegeben."
+},
+{
+"frage": "Was beschreibt das Attribut method im <form>-Element?",
+"antworten": [
+"Es bestimmt die Größe des Formulars auf der Webseite",
+"Es legt fest, wie die Formulardaten übertragen werden",
+"Es definiert die Anzahl der Eingabefelder",
+"Es erzeugt automatisch einen Absende-Button",
+"Es verschlüsselt die Daten standardmäßig"
+],
+"korrekteAntwort": 1,
+"erklaerung": "Die Übertragungsart bestimmt, wie Daten gesendet werden. Unterschiedliche Methoden beeinflussen Sichtbarkeit und Struktur der übertragenen Informationen."
+}
+]
